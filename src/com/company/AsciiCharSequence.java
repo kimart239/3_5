@@ -5,7 +5,7 @@ public class AsciiCharSequence implements CharSequence{
     private byte[] y;
 
     public AsciiCharSequence(byte[] x) {
-        y = x.clone();
+        y = x.clone();//клонируем
     }
     public String toString(){
            return new String(y);
